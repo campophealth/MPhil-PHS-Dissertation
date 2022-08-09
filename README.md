@@ -14,8 +14,11 @@ Annotated code used to make power curves can be found in the p_curves_t.R and p_
 
 ## Annotation and filtering
 
+
+
 ## Q-Q plots
 
-Quantile-quantile (Q-Q) plots were created to investigate whether the test statistics are inflated. A genomic inflation factor, $\lambda$, was calculated by converting the *P*-values into the equivalent  $χ^2$  statistic from the $χ^2$ distribution on one degree of freedom. λ was given by the median of the observed $χ^2$ statistics divided by the expected median of the $χ^2$ distribution.
+Quantile-quantile (Q-Q) plots were created to investigate whether the test statistics are inflated. A genomic inflation factor, $\lambda$, was calculated by converting the *P*-values into the equivalent  $χ^2$  statistic from the $χ^2$ distribution on one degree of freedom. $\lambda$ was given by the median of the observed $χ^2$ statistics divided by the expected median of the $χ^2$ distribution. 
 
-##
+The Q-Q plots were created for *P*-values from CMAT and RAML analyses on four subsets of the data: all coding variants, all nonsynonymous variants, all missense variants, and frameshift and nonsense variants. The Q-Q plots created from CMAT analyses can be found in the file CMAT_pvals.R, and the Q-Q plots created from RAML analyses can be found in the file RAML_pvals.R.
+
