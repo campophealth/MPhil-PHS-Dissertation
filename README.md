@@ -16,4 +16,6 @@ Annotated code used to make power curves can be found in the p_curves_t.R and p_
 
 ## Q-Q plots
 
+Quantile-quantile (Q-Q) plots were created to investigate whether the test statistics are inflated. A genomic inflation factor, λ, was calculated by converting the P^values into the equivalent χ^2 statistic from the χ^2 distribution on one degree of freedom. λ was given by the median of the observed χ^2 statistics divided by the expected median of the χ^2 distribution.
+
 ##
