@@ -10,7 +10,7 @@ for (p in mypackages){
 
 # 2) Change font to Latin Modern 
 
-font_paths("C:\\Users\\sukan\\AppData\\Local\\Microsoft\\Windows\\Fonts")
+font_paths("")
 c <- font_files() 
 
 font_add(family = "LM Roman 10",
