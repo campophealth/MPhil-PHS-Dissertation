@@ -1,6 +1,6 @@
 # MPhil-PHS-Dissertation
 
-The repository contains all the code used for my Masters of Philosophy dissertation. The dataset contains genotyping data from 63 projects participating in the Ovarian Cancer Association Consortium (OCAC) and can be found at the European Genome-phenome Archive (https://ega-archive.org/). The summary results of the OCAC germline genotype data can be found http://ocac.ccge.medschl.cam.ac.uk/.
+The repository contains all the code used for my Masters of Philosophy dissertation. The dataset contains genotyping data from 63 projects participating in the Ovarian Cancer Association Consortium (OCAC) and can be found at the European Genome-phenome Archive (https://ega-archive.org/). The summary results of the OCAC germline genotype data can be found at http://ocac.ccge.medschl.cam.ac.uk/.
 
 The code published in this repo includes samples of the R code used for making graphs, perl code for running the RAML and CMAT analyses, and additional bash scripts used for annotation and filtering. 
 
@@ -10,7 +10,7 @@ Annotated code used to make power curves can be found in the p_curves_t.R and p_
 
 ## Annotation and filtering
 
-Annotation was run using the variant annotation tool ANNOVAR, and was run by Joe Dennis. Variant filtering was done using basic gawk commands on Linux, and was run by myself. A sample of the code used can be found in the bash script anno_filter.sh, which outlines how annotation was run as well as variant filtering steps for chromosome 22. 
+Annotation was run using the variant annotation tool ANNOVAR by Joe Dennis. Variant filtering was done using basic gawk commands on Linux, and was run by myself. A sample of the code used can be found in the bash script anno_filter.sh, which outlines how annotation was run as well as variant filtering steps for chromosome 22. 
 
 ## RAML and CMAT analyses
 
